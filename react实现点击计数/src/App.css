@@ -1,0 +1,90 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+#box{
+  width:100%;
+  height:400px;
+  background-color: #C6E746;
+}
+
+li{
+
+  width:200px;
+  height: 50px;
+  list-style: none;
+  display: inline-block;
+  font:700 24px/50px "simsun";
+  background-color: aqua;
+  cursor: pointer;
+
+}
+#content{
+  width:600px;
+  height:300px;
+  background-color: white;
+  margin: auto;
+  color:blue;
+  font:700 24px/60px "simsun";
+
+  overflow: hidden;
+}
+span{
+  width:100%;
+  height:300px;
+
+  display: none;
+}
+.current{
+  background-color:  blue;
+
+}
+.show{
+  display:block;
+}
+#box{
+  margin: auto;
+  width:500px;
+  height:300px;
+  background-color: violet;
+  color: white;
+  font:700 24px/300px "simsun";
+  text-align: center;
+}
+.text{
+  margin:auto;
+  width:500px;
+  height:80px;
+  background-color: black;
+  color: white;
+  font:700 24px/80px "simsun";
+  text-align: left;
+}
