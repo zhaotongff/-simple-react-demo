@@ -1,0 +1,9 @@
+#btn{
+  display: block;
+  margin:30px auto;
+  width:200px;
+  height:60px;
+  text-align: center;
+  font:700 24px/60px "simsun";
+  background-color: #92ff28;
+}
